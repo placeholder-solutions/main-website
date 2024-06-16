@@ -1,0 +1,291 @@
+body {
+    background-color: #181818;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 100;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+    margin: 0; /* Remove default margin */
+}
+
+a {
+    color: inherit; /* Inherit color from parent element */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: rgb(51, 51, 51); /* Change color on hover */
+    transition: 0.5s; /* Smooth transition */
+}
+
+a:active {
+    color: #8f8f8f; /* Change color on click */
+}
+
+a:visited {
+    color: inherit; /* Inherit color from parent element to avoid purple visited links */
+    text-decoration: none; /* Remove underline */
+}
+
+/* nav bar */
+
+.navBarWhole {
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding-top: 15px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBarWhole ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navBarWhole ul li {
+    color: white;
+    transition: 0.5s;
+}
+
+.ourServices {
+    padding-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ourServices:hover {
+    color: rgb(51, 51, 51);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+.buttonStyling {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #181818;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid hsl(0, 0%, 50%);
+    transition: 0.3s;
+}
+
+.buttonStyling:hover {
+    
+    transition: 0.3s;
+    border-color: rgb(51, 51, 51);
+}
+
+/* main body landing page */ 
+
+.logo {
+    color: white;
+    font-size: 100px;
+    padding-top: 20px;
+    padding-right: 35px;
+    padding-left: 35px;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 130px;
+}
+
+.subText {
+    color: rgb(51, 51, 51);
+    font-size: 25px;
+    font-weight: 400;
+    width: 700px;
+    padding-top: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 30px;
+    transition: 0.7s;
+}
+
+.subText:hover {
+    color: white;
+    transition: 1.5s;
+}
+
+/* main body services page */ 
+
+
+.logoTwo {
+    color: white;
+    width: 15%;
+    font-size: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left: 20px;
+    padding-left: 1px;
+    transition: 0.2s;
+}
+
+.logoTwo:hover {
+    color: #494949;
+    font-size: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left: 1  5px;
+    cursor: pointer;
+    transition: 0.05s;
+}
+
+.logoTwo:active {
+    color: #8f8f8f;;
+    font-size: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.headerText {
+    color: white;
+    margin-top: 20px;
+}
+
+.containerPlace {
+    color: white;
+    margin-top: 100px;
+    margin-left: 35px;
+}
+
+.containerFormat {
+    color: white;
+}
+
+.servicesContainer {
+    display: flex;               /* Enables flex layout */
+    justify-content: center;     /* Centers divs horizontally */
+    align-items: center;     /* Aligns divs at the top */
+    gap: 30px;                   /* Space between divs */
+    height: auto;              /* Full viewport height */
+    margin: 0 auto;              /* Centers the container itself */
+    margin-top: 150px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.divOne, .divTwo, .divThree {
+    display: flex;
+    flex-direction: column;      /* Stacks children vertically */
+    align-items: center;         /* Centers children horizontally */
+    justify-content: center;     /* Centers children vertically */
+    text-align: left;
+}
+
+.textWrapper {
+    border: 1px solid hsl(0, 0%, 50%);
+    padding: 20px;
+    margin: 10px 0;
+    background-color:  #181818;
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+    width: 300px;
+    line-height: 0.1;
+}
+
+.textWrapper:hover {
+    border: 1px solid hsl(0, 0%, 33%);
+    transform: scale(1.05);
+}
+
+.p1 {
+    color: white;
+    font-size: 25px;
+}
+
+.p2 {
+    color: white;
+    line-height: 0.5cm;
+    padding-bottom: 30px;
+}
+
+.p3 {
+    color: white;
+    line-height: 0.1cm;
+}
+
+.p4 {
+    color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;    
+    margin-top: 90px;
+}
+
+.p5 {
+    color: white;
+    font-size: 20px;
+}
+
+.p6 {
+    color: white;
+    font-size: 17px;
+    padding-bottom: 2px;
+}
+
+.p7 {
+    color: white;
+    font-size: 13px;
+    width: auto;
+    line-height: 1.3;
+}
+
+.line {
+    border: 0.5px solid white;
+}
+
+.h1 {
+    color: white;
+}
+
+/* Footer logos */ 
+
+.logosFormatting {
+    display: flex;
+    padding-top: 35px;
+    justify-content: center;
+    opacity: 60%;
+    gap: 30px;
+    height: 20px;
+    width: auto;
+    align-items: center; 
+}
+
+.textWrapperOne {
+    border: 1px solid hsl(0, 0%, 50%);
+    padding: 20px;
+    margin: 10px 0;
+    background-color:  #181818;
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+    width: 300px;
+    line-height: 1;
+}
+
+.textWrapperOne:hover {
+    border: 1px solid hsl(0, 0%, 33%);
+    transform: scale(1.05);
+}
+
+
