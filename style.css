@@ -247,6 +247,10 @@ a:visited {
     .divOne, .divTwo {
         scale: 90%;
     }
+    .divOne, .divTwo {
+        margin-left: -1px;
+        margin-right: -15px;
+    }
     }
 
     .servicesContainer {
@@ -274,6 +278,10 @@ a:visited {
     .divOne, .divTwo {
         scale: 75%;    
     }
+    .divOne, .divTwo {
+        margin-left: -45px;
+        margin-right: -45px;
+    }
     }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -297,6 +305,9 @@ a:visited {
         margin: 0%;
         padding: 0%;
         }
+    .divOne, .divTwo {
+        margin-bottom: -25px;
+    }
     }
  
     @media (min-width: 390px) and (max-width: 576px) {
@@ -316,6 +327,9 @@ a:visited {
         flex-direction: column;
         width: 100%;
         align-items: center;
+    }
+    .divOne, .divTwo {
+        margin-bottom: -20px;
     }
     }
     
