@@ -230,7 +230,6 @@ a:visited {
     left: 0;
     margin-left: 20px;
     padding-left: 1px;
-    transition: 0.2s;
 }
 
 /* About us page */
@@ -311,16 +310,12 @@ a:visited {
         right: 30%;
         top: 0;
         padding-right: 68px;
-        scale: 65%;
+        scale: 35%;
     }
     .servicesContainer {
         flex-direction: column;
-        scale: 60%;
         width: 100%;
-        justify-content: center;
         align-items: center;
-        margin: 0%;
-        padding: 0%;
     }
     }
     
