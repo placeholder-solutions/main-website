@@ -308,13 +308,13 @@ a:visited {
      .navBarWhole {
         right: 30%;
         top: 0;
-        padding-right: 38px;
+        padding-right: 68px;
         scale: 65%;
     }
     .servicesContainer {
         flex-direction: column;
-        scale: 30%;
-        height: 100vh;
+        scale: 60%;
+        height: 100%;
         width: 100%;
         justify-content: center;
         align-items: center;
@@ -331,7 +331,7 @@ a:visited {
         width: 40%;
     }
     .navBarWhole {
-        right: -11.2%;
+        right: -17%;
         top: 0;
         scale: 65%;
     }
