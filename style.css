@@ -248,7 +248,7 @@ a:visited {
         scale: 90%;
     }
     .divOne, .divTwo {
-        margin-left: -1px;
+        margin-left: -15px;
         margin-right: -15px;
     }
     }
@@ -320,8 +320,8 @@ a:visited {
      .navBarWhole {
         right: 30%;
         top: 0;
-        padding-right: 40px;
-        scale: 35%;
+        padding-right: 60px;
+        transform: scale(1.10);
     }
     .servicesContainer {
         flex-direction: column;
