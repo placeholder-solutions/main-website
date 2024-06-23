@@ -38,7 +38,7 @@ a:visited {
     right: 0;
     top: 0;
     padding-top: 15px;
-    padding-right: 25px;
+    padding-right: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -151,12 +151,12 @@ a:visited {
     .logo {
         font-size: 38px;
         width: 75%;
-        padding-bottom: 160px;
+        padding-bottom: 120px;
     }
     .subText {
         font-size: 14px;
         padding: 53px 35px;
-        padding-bottom: 80px;
+        padding-bottom: 35px;
         width: 75%;
     }
 }
@@ -318,15 +318,17 @@ a:visited {
         width: 40%;
     }
      .navBarWhole {
-        right: 30%;
+        right: 0%;
         top: 0;
-        padding-right: 60px;
+        padding-right: 65px;
         transform: scale(1.10);
     }
     .servicesContainer {
         flex-direction: column;
         width: 100%;
         align-items: center;
+        position: relative;
+        top: -29px;
     }
     .divOne, .divTwo {
         margin-bottom: -20px;
