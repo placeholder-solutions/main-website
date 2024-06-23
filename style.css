@@ -11,6 +11,15 @@ html, body {
     margin: 0; /* Remove default margin */
 }
 
+.nonScrollablePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    position: fixed; /* Fix content */
+    width: 100%;
+}
+
 a {
     color: inherit; /* Inherit color from parent element */
     text-decoration: none; /* Remove underline */
