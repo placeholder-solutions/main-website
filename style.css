@@ -274,10 +274,23 @@ a:visited {
         gap: 30px;                   /* Space between divs */
         height: auto;              /* Full viewport height */
         margin: 0 auto;              /* Centers the container itself */
-        margin-top: 0px;
+        margin-bottom: 170px;
         padding: 0;
         overflow: visible;
     }
+
+    .servicesContainerOurServices {
+        display: flex;               /* Enables flex layout */
+        justify-content: center;     /* Centers divs horizontally */
+        align-items: center;     /* Aligns divs at the top */
+        gap: 30px;                   /* Space between divs */
+        height: auto;              /* Full viewport height */
+        margin: 0 auto;              /* Centers the container itself */
+        margin-top: 170px;
+        padding: 0;
+        overflow: visible;
+    }
+
 
 @media (min-width: 769px) and (max-width: 992px) {
     .logoTwo {
