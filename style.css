@@ -43,6 +43,33 @@ a:visited {
 
 /* main body services page */ 
 
+.styling {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75vh;
+    margin-left: 35px;
+    }
+
+.leadText {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    margin-bottom: 5px; /* Add some space between leadText and subText */
+    text-align: left; /* Align text to the left */
+    padding-left: 35px;
+    
+}
+
+.valueProp {
+    color: rgb(137, 137, 137);
+    font-weight:lighter;
+    padding-left: 35px;
+}
+
+.experiencePositioning {
+    
+}
+
 .logoTwo {
     color: white;
     width: 15%;
@@ -124,26 +151,8 @@ a:visited {
 .logo {
     color: rgb(255, 255, 255);
     font-size: 100px;
-    padding-top: 20px;
     padding-right: 35px;
     padding-left: 35px;
-    position: fixed;
-    bottom: 0;
-    padding-bottom: 130px;
-    width: 75%;
-}
-
-.subText {
-    color: rgb(111, 111, 111);
-    font-size: 25px;
-    font-weight: 400;
-    width: 700px;
-    padding-top: 10px;
-    padding-right: 35px;
-    padding-left: 35px;
-    position: fixed;
-    bottom: 0;
-    transition: 0.7s;
     width: 75%;
 }
 
@@ -451,7 +460,6 @@ a:visited {
     color: rgb(51, 51, 51);
     display: flex;
     justify-content: center;    
-    margin-top: 90px;
 }
 
 .p5 {
